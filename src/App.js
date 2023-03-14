@@ -3,22 +3,24 @@ import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <div>
+        <Navbar />
+        <Wrapper />
+          <Routes>
+            <Route path = "/" element={<Homepage/>} />
+            <Route path = "/projects" element={<Projects-page/>} />
+            <Route path = "/contact" element={<Contact/>} />
+          </Routes>
+        <Wrapper />
+        <Footer />
+      </div>
+    </Router>
+    // <div className="App">
+    //   <header className="App-header">
+    //     <h1>FDUNNINTGON PORTFOLIO</h1>
+    //   </header>
+    // </div>
   );
 }
 
