@@ -3,9 +3,16 @@ import "./style.css";
 
 function Footer() {
   return (
-    <footer className="footer">
-      <span>FDunnington 2023</span>
-    </footer>
+    <div id="footer" class="footer">
+      <footer class="container">
+        <div class="copyright">
+          &copy; Copyright <strong><span>.wilderfolk</span></strong>. All Rights Reserved
+        </div>
+        <div class="credits">
+          Designed by me. <a href="https://bootstrapmade.com/">Powered by BootstrapMade</a>
+        </div>
+      </footer>
+    </div>
   );
 }
 

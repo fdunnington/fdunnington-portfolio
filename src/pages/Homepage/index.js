@@ -1,20 +1,16 @@
 import React from "react";
-import Hero from "../../components/Hero";
+// import Hero from "../../components/Hero";
 import Container from "../../components/Container";
 import Row from "../../components/Row";
 import Col from "../../components/Col";
 
 function Homepage() {
     return (
-        <div>
-      <Hero>
-        <h1>Fi Dunnington</h1>
-        <h2>UX Designer & Frontend Developer</h2>
-      </Hero>
+    <div>
       <Container backgroundImage="https://images.immediate.co.uk/production/volatile/sites/4/2021/08/mountains-7ddde89.jpg">
         <Row>
           <Col size="md-12">
-            <h1>Welcome To Pupster!</h1>
+            <h1>UX Designer & Frontend Developer</h1>
           </Col>
         </Row>
         <Row>
