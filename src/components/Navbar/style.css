@@ -1,0 +1,20 @@
+
+/* Navbar */
+.navbar {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0;
+}
+
+.navbar-brand {
+  font-size: 45px;
+}
+.navbar-nav {
+  display: flex;
+  align-items: flex-end;
+}
+
+.nav-item {
+  margin-right:20px;
+  list-style: none;
+}
