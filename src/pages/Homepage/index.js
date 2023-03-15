@@ -1,14 +1,16 @@
 import React from "react";
-// import Container from "../../components/Container";
-// import Row from "../../components/Row";
-import About from "../../pages/About"
+import Container from "../../components/Container";
+import Profile from "../../components/Profile";
+import Projects from "../Projects";
 import "./style.css";
 
 function Homepage() {
     return (
-      <div>
-        <About />
-      </div>
+      <Container >
+        <Profile />
+        <Projects/>
+
+      </Container>
     );
 }
 
