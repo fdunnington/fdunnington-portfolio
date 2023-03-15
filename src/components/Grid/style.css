@@ -1,3 +1,40 @@
-.grid {
-    grid-template: 1fr 1fr 1fr ;
+.grid-container {
+  width: 80vw;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-areas: 
+  "card"
+  "card"
+  "card"
+  "card"
+  "card"
+  "card"
+  "card"
+  "card"
+  ;
+}
+
+
+@media (min-width: 728px) {
+  .grid-container {
+    display: grid;
+    grid-template-areas: 
+    "card card"
+    "card card"
+    "card card"
+    "card card"
+    ;
+  }
+}
+
+@media (min-width: 991px) {
+  .grid-container {
+    display: grid;
+    grid-template-areas: 
+    "card card card"
+    "card card card"
+    ;
+  }
 }
