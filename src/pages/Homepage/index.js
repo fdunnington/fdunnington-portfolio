@@ -1,20 +1,15 @@
 import React from "react";
-// import Hero from "../../components/Hero";
 import Container from "../../components/Container";
 import Row from "../../components/Row";
-import Col from "../../components/Col";
+import Hero from "../../components/Hero"
+import "./style.css";
 
 function Homepage() {
     return (
     <div>
-      <Container backgroundImage="https://images.immediate.co.uk/production/volatile/sites/4/2021/08/mountains-7ddde89.jpg">
+      <Container backgroundImage="">
+        <Hero />
         <Row>
-          <Col size="md-12">
-            <h1>UX Designer & Frontend Developer</h1>
-          </Col>
-        </Row>
-        <Row>
-          <Col size="md-12">
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc aliquet diam tortor, id
               consequat mauris ullamcorper eu. Orci varius natoque penatibus et magnis dis
@@ -50,7 +45,7 @@ function Homepage() {
               interdum elit pulvinar eu. Quisque vitae quam dapibus, vestibulum mauris quis, laoreet
               massa.
             </p>
-          </Col>
+
         </Row>
       </Container>
     </div>

@@ -9,7 +9,7 @@ function Footer() {
           &copy; Copyright <strong><span>.wilderfolk</span></strong>. All Rights Reserved
         </div>
         <div class="credits">
-          Designed by me. <a href="https://bootstrapmade.com/">Powered by BootstrapMade</a>
+          Designed by Fi Dunnington.
         </div>
       </footer>
     </div>
