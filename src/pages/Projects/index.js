@@ -29,7 +29,6 @@ function Projects() {
             <Grid>
               {projects.map((project) => (
                 <ProjectCard
-                  removeproject={removeproject}
                   id={project.id}
                   key={project.id}
                   name={project.name}
