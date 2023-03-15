@@ -4,7 +4,7 @@ import "./style.css";
 function Footer() {
   return (
     <div id="footer" class="footer">
-      <footer class="container">
+      <footer>
         <div class="copyright">
           &copy; Copyright <strong><span>.wilderfolk</span></strong>. All Rights Reserved
         </div>
