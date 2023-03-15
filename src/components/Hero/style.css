@@ -1,33 +1,44 @@
-.hero {
-  height: 500px;
-  background-size: cover;
-  background-position: center;
+
+
+/*--------------------------------------------------------------
+# Page Header
+--------------------------------------------------------------*/
+.page-header {
+  min-height: 20vh;
   position: relative;
 }
 
-.hero::after {
-  content: "";
-  display: block;
-  opacity: .4;
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background: black;
+.page-header h2 {
+  font-size: 56px;
+  font-weight: 500;
+  color: #fff;
+  font-family: var(--font-secondary);
 }
 
-.hero * {
-  position: relative;
-  z-index: 2;
+@media (max-width: 768px) {
+  .page-header h2 {
+    font-size: 36px;
+  }
 }
 
-.hero h1, .hero h2 {
-  color: white;
+.page-header p {
+  color: rgba(255, 255, 255, 0.8);
 }
 
-.hero h1 {
-  font-size: 60px;
-  padding-top: 140px;
-  margin-top: 0;
+.page-header .cta-btn {
+  font-family: var(--font-primary);
+  font-weight: 400;
+  font-size: 14px;
+  display: inline-block;
+  padding: 12px 40px;
+  border-radius: 4px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  transition: 0.3s;
+  color: #fff;
+  background: var(--color-primary);
+}
+
+.page-header .cta-btn:hover {
+  background: #2cbc85;
 }

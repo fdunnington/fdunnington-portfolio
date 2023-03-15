@@ -1,0 +1,6 @@
+  .row {
+    display: flex;
+    justify-content: center;
+    padding: 2em 0;
+    margin: auto;
+  }

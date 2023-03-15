@@ -1,54 +1,45 @@
 import React from "react";
 import Container from "../../components/Container";
 import Row from "../../components/Row";
-// import Col from "../../components/Col";
+import Card from "../../components/Card"
+import "./style.css";
 
 function Contact() {
     return (
     <div>
       <Container >
-        <Row>
-         
-            <section id="contact" class="contact">
-              <div class="container">
-                <div class="row gy-4 justify-content-center">
-
-                  <div class="col-lg-3">
-                    <div class="info-item d-flex">
-                      <i class="bi bi-geo-alt flex-shrink-0"></i>
-                      <div>
-                        <h4>Location:</h4>
-                        <p>Cornwall, UK</p>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div class="col-lg-3">
-                    <div class="info-item d-flex">
-                      <i class="bi bi-envelope flex-shrink-0"></i>
-                      <div>
-                        <h4>Email:</h4>
-                        <a href="mailto:fi@fidunnington.com">fi@fidunnington.com</a>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div class="col-lg-3">
-                    <div class="info-item d-flex">
-                      <i class="bi bi-phone flex-shrink-0"></i>
-                      <div>
-                        <h4>Call/WhatsApp:</h4>
-                        <a href="tel:00447481844007">0044 7481 844 007</a>
-                      </div>
-                    </div>
-                  </div>
-
-                </div>
+        <Row >
+          <Card >
+            <div class="info-item">
+              <i class="fa fa-map-marker"></i>
+              <div>
+                <h4 class="strong">Location</h4>
+                <p>Cornwall, UK</p>
               </div>
-            </section>
+            </div>
+          </ Card>
 
-        </Row>
-      </Container>
+          <Card >
+            <div class="info-item">
+              <i class="fa fa-envelope"></i>
+              <div>
+                <h4 class="strong">Email</h4>
+                <p><a href="mailto:fi@fidunnington.com">fi@fidunnington.com</a></p>
+              </div>
+            </div>
+          </ Card>
+
+          <Card >
+            <div class="info-item">
+              <i class="fa fa-phone"></i>
+              <div>
+                <h4 class="strong">Call/WhatsApp</h4>
+                <p><a href="tel:00447481844007">0044 7481 844 007</a></p>
+              </div>
+            </div>
+          </ Card>
+        </ Row>
+      </Container >
     </div>
     );
 }
