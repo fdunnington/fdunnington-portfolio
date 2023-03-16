@@ -68,10 +68,11 @@ a:hover {
     padding-left: 5px;
   }
 }
+
 /*--------------------------------------------------------------
 # Desktop Navigation
 --------------------------------------------------------------*/
-@media (min-width: 1280px) {
+@media (min-width: 901px) {
   .navbar {
     padding: 0;
     display: flex;
