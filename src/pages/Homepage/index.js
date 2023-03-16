@@ -6,11 +6,12 @@ import "./style.css";
 
 function Homepage() {
     return (
-      <Container >
-        <Profile />
-        <Projects/>
-
-      </Container>
+      <div id ="homepage">
+        <Container >
+          <Profile />
+          <Projects/>
+        </Container>
+      </div>
     );
 }
 
