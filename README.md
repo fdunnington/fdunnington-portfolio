@@ -1,192 +1,72 @@
-For this Challenge, you'll use what you've learned in this module to develop the initial scaffolding of your portfolio site from scratch using React.
-Modern Development with React: React Portfolio
+# fdunnington-portfolio
+  ----
 
-Now that you've worked with React and have multiple projects to share, it's time to develop the initial scaffolding for your first portfolio site, as well as create or update other materials so that you can showcase your skills to potential employers. Creating a portfolio using React will help set you apart from other developers whose portfolios do not use some of the latest technologies.
-Instructions
+  ![Github license](https://img.shields.io/badge/license-MIT-blue.svg)
 
-    You must fullfil the requirements listed in the following sections:
+  https://64141e124e67230007f5fa26--meek-pika-6724aa.netlify.app/
 
-Design
+  ## Description:
 
-Remember, "good" design is subjective. Your site should look "polished" and "professional." Here are a few guidelines on what that means:
+  ### Motivation
+  This was an update to an existing portfolio, converting it to React (from Bootstrap), and incporporating recent projects. The goal was to learn more about React, and how to ues it to help create more modular web applications.
 
-    Use mobile-first design.
 
-    Choose a color palette for your site so it doesn't just look like the default bootstrap theme or an unstyled HTML site.
 
-    Make sure the font size is large enough to read and that the colors don't cause eye strain.
+  ### Learnings
+  I learned the basics of React, and how - once learned - it can simplify a web application by breaking it down into component parts, making changes easier to manage. 
 
-Base Requirements
+I struggled with deploying the site through Github pages initially and was unable to make the homepage display (only a blank page displayed, along with the header and footer. I was advised that Netlify would resolve this. It didn't. After spending time researching I discover the issue was in my Routes, where I had used the incorrect pathname for the homepage (had set it to '/homepage' rather than' /'. Lesson learned!
 
-Your portfolio must meet the following requirements:
 
-    The following technologies must be used:
+  ----
 
-        React
+  ## Table of Contents:
 
-        Navigation using React Router, dynamic rendering, or another third part router
+  * [Installation](#installation)
+  * [Application usage](#usage)
+  * [License](#license)
+  * [Contributing to the project](#contributing)
+  * [How to test](#test)
+  * [Questions](#questions)
+  * [Credits](#credits)
 
-    Your portfolio must contain the following information:
+  ----
+  
 
-        Your name
+  ## Installation:
+  To install the application in a dev environment simply follow the instructions below: 
+  ``  Add later
 
-        Links to your:
+  ``
 
-        GitHub profile
+  ## Usage
+  The repo can be installed using gh-pages or Netlify, but Netlify is the simpler of the two, and better suited to React Apps.
 
-        LinkedIn page
+  
+  ![portfolio screenshot](../../src/images/portfolio-screenshot.png)
 
-        Email address
 
-        Phone number (optional)
+  ## License
+  This project uses the ![Github license](https://img.shields.io/badge/license-MIT-blue.svg) license.
 
-        CV (in PDF format)
-            Your CV must contain up-to-date projects and professional experience
 
-        A list of projects (Challenges or Projects). For each project, make sure you have the following:
+  ## Contributing
+  [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](code_of_conduct.md)
+  
+  We are happy for other developers to contribute to this project, and have adpoted the [Contributor Covenant](https://www.contributor-covenant.org/)
 
-            Project title
 
-            Link to the deployed version
+  ## Test
+  To test the app run the following command from the app directory:
+  ~~~
+  npm start
+  ~~~
 
-            Link to the GitHub repository
+  ## Questions
+  If you have any questions about the repo you can open an issue or contact me directly at fi@fi.dunnington.com.
 
-            GIF or screenshot of the deployed application
+  You can find more of my work at [fdunnington](https://github.com/fdunnington).
 
-Required Components
 
-At a minimum, your portfolio must render these 6 components:
-
-    App
-
-    Header
-
-    Home page
-
-    Projects page
-
-    Project (on Projects page)
-
-    Contact page
-
-Component Content and Requirements
-
-Each of the following components must follow these guidelines:
-
-    App:
-        Must be your top-level component and render all necessary child components
-
-    Header:
-
-        Must be rendered across every page component of the site
-
-        Must contain a Navbar
-
-    Home page:
-
-        This should be a welcome landing page that contains:
-
-        Your Name
-
-        A headshot of you (or an avatar)
-
-        Your brand statement
-
-        Some indication that this is your portfolio site
-
-    Projects page:
-
-        Must render six instances of the Project component dynamically
-
-        Be sure to store your project details data in a JSON file and import it into your project
-
-    Project:
-
-        Must be a reusable component that ingests JSON data as props and renders a single instance for each project
-
-        Must utilize Router props to properly render the right project based on user selection
-
-        Must render the following info:
-
-        Project title
-
-        Link to the deployed version
-
-        Link to the GitHub repository
-
-        GIF or screenshot of the deployed application
-
-    Contact page:
-
-        Must include contact information:
-
-        Email address
-
-        Link to a PDF version of your CV
-
-        Link to your GitHub profile
-
-        Link to your LinkedIn page
-
-        Must have a contact form for handling events
-
-Updated Social Media Presence
-
-A good portfolio includes updated skills information and links to your web presence. You should update the following social media accounts as well:
-LinkedIn
-
-    Make sure to update your LinkedIn Profile with the new skills you've acquired since the last time it was updated.
-
-    If you do not have a LinkedIn profile, please create one.
-
-GitHub
-
-    Update your GitHub profile with pinned repositories featuring those same projects.
-
-Grading Requirements
-note
-
-If a Challenge assignment submission is marked as “0”, it is considered incomplete and will not count towards your graduation requirements. Examples of incomplete submissions include the following:
-
-    A repository that has no code
-
-    A repository that includes a unique name but nothing else
-
-    A repository that includes only a README file but nothing else
-
-    A repository that only includes starter code
-
-This Challenge is assessed on the following criteria:
-Technical Acceptance Criteria: 40%
-
-    Satisfies all of the above acceptance criteria.
-
-Deployment: 32%
-
-    Application deployed at live URL (if applicable).
-
-    Application loads with no errors.
-
-    Application GitHub URL submitted (if applicable).
-
-    GitHub repository that contains application code.
-
-Application Quality: 15%
-
-    User experience is intuitive and easy to navigate.
-
-    User interface style is clean and polished.
-
-    Application uses a color scheme other than the default Bootstrap color palette.
-
-Repository Quality: 13%
-
-    Repository has a unique name.
-
-    Repository follows best practices for file structure and naming conventions.
-
-    Repository follows best practices for class/id naming conventions, indentation, quality comments, etc.
-
-    Repository contains multiple descriptive commit messages.
-
-    Repository contains quality README file with description, screenshot, and link to deployed application.
+  ## Credits
+  With thanks to EdX

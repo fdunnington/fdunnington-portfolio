@@ -4,16 +4,6 @@
     line-height: 2em;
 }
 
-
-
 ul {
     list-style: none;
-}
-
-a:hover {
-    color: black;
-}
-
-.contact-link {
-    margin: 20px 5px;
 }
