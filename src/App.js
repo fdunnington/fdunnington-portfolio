@@ -17,18 +17,18 @@ function App() {
   return (
     <Router>
       <div>
-        <Wrapper>
         <Navbar />
+        <Wrapper>
         <Container>
           <Routes>
-            <Route path = "/Homepage" element={<Homepage/>} />
-            <Route path = "/projects" element={<Projects/>} />
-            <Route path = "/contact" element={<Contact/>} />
-            <Route path = "/about" element={<About/>} />
+            <Route path = "/" element={<Homepage/>} />
+            <Route path = "projects/" element={<Projects/>} />
+            <Route path = "contact/" element={<Contact/>} />
+            <Route path = "about/" element={<About/>} />
           </Routes>
         </Container>
-        <Footer />
         </Wrapper>
+        <Footer />
       </div>
     </Router>
   );
