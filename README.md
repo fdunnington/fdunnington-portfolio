@@ -1,9 +1,11 @@
 # fdunnington-portfolio
   ----
+  ![portfolio screenshot](/src/images/portfolio-screenshot.png)
 
   ![Github license](https://img.shields.io/badge/license-MIT-blue.svg)
+  [![Netlify Status](https://api.netlify.com/api/v1/badges/0439b348-52a3-4bd3-b553-e28a6f4fa8ca/deploy-status)](https://app.netlify.com/sites/meek-pika-6724aa/deploys)
 
-  https://64141e124e67230007f5fa26--meek-pika-6724aa.netlify.app/
+  ## [Click to see the deployed site](https://64141e124e67230007f5fa26--meek-pika-6724aa.netlify.app/)
 
   ## Description:
 
@@ -35,16 +37,15 @@ I struggled with deploying the site through Github pages initially and was unabl
 
   ## Installation:
   To install the application in a dev environment simply follow the instructions below: 
-  ``  Add later
+  
+  Use `npm i` in the terminal to install Node in the repo in which you store the app.
+  
 
-  ``
 
   ## Usage
   The repo can be installed using gh-pages or Netlify, but Netlify is the simpler of the two, and better suited to React Apps.
 
   
-  ![portfolio screenshot](../../src/images/portfolio-screenshot.png)
-
 
   ## License
   This project uses the ![Github license](https://img.shields.io/badge/license-MIT-blue.svg) license.
