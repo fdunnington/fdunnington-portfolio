@@ -21,7 +21,7 @@ function App() {
         <Navbar />
         <Container>
           <Routes>
-            <Route path = "/Homepage" element={<Homepage/>} />
+            <Route path = "/" element={<Homepage/>} />
             <Route path = "/projects" element={<Projects/>} />
             <Route path = "/contact" element={<Contact/>} />
             <Route path = "/about" element={<About/>} />
