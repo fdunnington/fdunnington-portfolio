@@ -1,17 +1,37 @@
-#about {
+.content {
     text-align: center;
     padding: 1em 0;
     line-height: 2em;
+    max-width: 800px;
+}
+
+.content a {
+    background-color: none;
+    color: var(--color-primary);
+    padding: 10px;
+    border: 2px solid var(--color-primary);
+    border-radius: 2px;
 }
 
 ul {
     list-style: none;
 }
 
-a:hover {
-    color: black;
+.content a:hover {
+    background-color: var(--color-primary);
+    border: none;
+    transition: 0.3s ease-in-out;
+    border: 2px solid var(--color-primary);
 }
 
 .contact-link {
     margin: 20px 5px;
+}
+
+@media (max-width: 500px) {
+    .contact-links {
+        display: flex;
+        flex-wrap: no-wrap;
+        flex-direction: column;
+    }
 }

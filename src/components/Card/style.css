@@ -3,12 +3,9 @@
     flex-direction: column;
     justify-content: center;
     border-radius: 7px;
-    height: 325px;
     margin: 1rem;
     position: relative;
-    width: 325px;
     text-align: left;
-    padding: 20px;
   }
   
   .card > .img-container {
@@ -16,6 +13,7 @@
     overflow: hidden;
     text-align: center;
   }
+
   .card > .img-container > img {
     width: 100%;
     border-radius: 7px;
