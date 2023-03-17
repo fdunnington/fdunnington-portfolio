@@ -1,8 +1,11 @@
 .info-item {
     display: flex;
-    flex-direction: row;
-    text-align: left;
+    flex-direction: column;
     align-items: center;
+    justify-content: center;
+    height: 155px;
+    margin: 0;
+    padding: 0;
 }
 
 .info-item i {
@@ -23,7 +26,6 @@
 .info-item i:hover {
     background: var(--color-primary);
     color: white;
-
 }
 
 .info-item h4 {
@@ -34,6 +36,4 @@
     color: black;
 }
 
-.card  {
-    box-shadow: none;
-}
+

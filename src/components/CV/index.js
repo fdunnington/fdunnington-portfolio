@@ -6,7 +6,7 @@ function CV() {
     return (
     <div>
         <Row>
-            <iframe src="https://drive.google.com/file/d/1HRUBEdtS4TUGLxIL5ngPCS-cGzAp8wlC/preview" width="100%" height="480" allow="autoplay"></iframe>
+            <iframe src="https://drive.google.com/file/d/1HRUBEdtS4TUGLxIL5ngPCS-cGzAp8wlC/preview" width="100%" height="480" allow="autoplay" title="Fi Dunnington CV"></iframe>
         </Row>
     </div>
     );

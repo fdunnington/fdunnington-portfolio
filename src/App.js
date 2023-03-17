@@ -10,7 +10,6 @@ import Contact from './pages/Contact';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import Container from './components/Container';
-import Wrapper from './components/Wrapper';
 
 
 
@@ -19,7 +18,6 @@ function App() {
     <Router>
       <div>
         <Navbar />
-        <Wrapper>
         <Container>
           <Routes>
             <Route path = "/" element={<Homepage/>} />
@@ -28,7 +26,6 @@ function App() {
             <Route path = "about/" element={<About/>} />
           </Routes>
         </Container>
-        </Wrapper>
         <Footer />
       </div>
     </Router>
