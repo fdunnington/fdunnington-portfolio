@@ -1,10 +1,10 @@
 [
     {
       "id": 1,
-      "name": "DAO Labs",
-      "image": "https://fdunnington.github.io/myPortfolio/assets/img/gallery/DAO%20Labs.png",
-      "link": "https://mydaolabs.com/pages/blog",
-      "Figma": "https://mydaolabs.com/pages/blog"
+      "name": "My Github",
+      "image": "https://avatars.githubusercontent.com/u/725063?v=4",
+      "link": "https://github.com/fdunnington",
+      "github": "https://github.com/fdunnington"
     },
     {
       "id": 2,
@@ -33,6 +33,20 @@
       "image": "https://github.com/fdunnington/README-Generator/raw/main/images/ScreenshotREADME-generator.png",
       "link": "https://fdunnington.github.io/README-Generator",
       "github": "https://github.com/fdunnington/README-Generator"
+    },
+    {
+      "id": 6,
+      "name": "DAO Labs",
+      "image": "https://fdunnington.github.io/myPortfolio/assets/img/gallery/DAO%20Labs.png",
+      "link": "https://mydaolabs.com/pages/blog",
+      "Figma": "https://mydaolabs.com/pages/blog"
+    },
+    {
+      "id": 7,
+      "name": "Password Generator",
+      "image": "https://github.com/fdunnington/password-generator/raw/main/assets/images/05-javascript-challenge-demo.png",
+      "link": "https://fdunnington.github.io/password-generator/",
+      "github": "https://github.com/fdunnington/password-generator"
     }
   ]
   

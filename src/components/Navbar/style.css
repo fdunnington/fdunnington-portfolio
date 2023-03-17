@@ -35,8 +35,8 @@
   font-family: var(--font-secondary);
 }
 
-.fa {
-  font-size: 24px !important;
+.header .fa {
+  font-size: 24px;
   padding: 10px;
 }
 

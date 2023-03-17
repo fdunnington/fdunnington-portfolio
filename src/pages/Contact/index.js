@@ -10,9 +10,9 @@ function Contact() {
           <div className="info-container">
             <Card >
               <div className="info-item">
-                <i className="fa fa-map-marker"></i>
+                <i className="fa fa-file"></i>
                 <div>
-                  <p className="strong">Cornwall, UK</p>
+                  <p className="strong"><a href="https://drive.google.com/file/d/1HRUBEdtS4TUGLxIL5ngPCS-cGzAp8wlC/view?usp=sharing" target="_blank">My CV</a></p>
                 </div>
               </div>
             </ Card>
