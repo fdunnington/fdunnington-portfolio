@@ -6,14 +6,14 @@ function Profile() {
     return (
     <div>
         <Row>
-        <section id="about" class="about">
+        <section id="about" className="about">
 
-            <div class="justify-content-center">
-              <div class="content">
+            <div className="justify-content-center">
+              <div className="content">
                 <h1>Visual UX Designer & Frontend Developer</h1>
-                <div class="contact-links">
-                  <a class="contact-link" href="tel:00447481844007">0044 7481 844 007</a>
-                  <a class="contact-link" href="mailto:fi@fidunnington.com">fi@fidunnington.com</a>
+                <div className="contact-links">
+                  <a className="contact-link" href="tel:00447481844007">0044 7481 844 007</a>
+                  <a className="contact-link" href="mailto:fi@fidunnington.com">fi@fidunnington.com</a>
                 </div>
 
                 <div>

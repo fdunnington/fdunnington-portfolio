@@ -1,3 +1,13 @@
+.colSmall {
+    display:flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+/* .contact-form {
+    min-width: 300px;
+} */
+
 .info-item {
     display: flex;
     flex-direction: column;
@@ -34,6 +44,15 @@
     font-weight: 600;
     margin-bottom: 5px;
     color: black;
+}
+
+@media (min-width: 900px) {
+    .colSmall {
+        display:flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    
 }
 
 

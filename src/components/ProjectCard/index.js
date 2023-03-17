@@ -7,11 +7,11 @@ function ProjectCard(props) {
       <div className="img-container">
         <img alt={props.name} src={props.image} />
       </div>
-      <hr class="divider"></hr>
+      <hr className="divider"></hr>
       <div className="content">
         <ul>
           <li>
-            <h3 class="project-name">{props.name}</h3>
+            <h3 className="project-name">{props.name}</h3>
           </li>
           <li>
             <a href={props.link} target="_blank"><strong>See live App </strong></a> 

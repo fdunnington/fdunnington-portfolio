@@ -3,12 +3,12 @@ import "./style.css";
 
 function Footer() {
   return (
-    <div id="footer" class="footer">
+    <div id="footer" className="footer">
       <footer>
-        <div class="copyright">
+        <div className="copyright">
           &copy; Copyright <strong><span>.wilderfolk</span></strong>. All Rights Reserved
         </div>
-        <div class="credits">
+        <div className="credits">
           Designed by Fi Dunnington.
         </div>
       </footer>

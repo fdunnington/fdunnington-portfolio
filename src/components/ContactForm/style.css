@@ -1,0 +1,18 @@
+
+.form-control {
+    margin: 10px auto;
+    padding: 5px;
+    width: 95%;
+}
+
+input {
+    padding: none;
+}
+
+textarea {
+    height: 60px;
+    background-color: aliceblue;
+}
+#submit-button {
+    padding: 10px;
+}
