@@ -19,7 +19,6 @@ function App() {
       <div>
         <Wrapper>
         <Navbar />
-        <Homepage />
         <Container>
           <Routes>
             <Route path = "/Homepage" element={<Homepage/>} />
