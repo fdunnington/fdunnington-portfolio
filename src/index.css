@@ -77,7 +77,12 @@ h6 {
   font-family: var(--font-primary);
 }
 
+p {
+  line-height: 2em;
+}
+
+
+
 .strong {
   font-weight: bold;
 }
-
