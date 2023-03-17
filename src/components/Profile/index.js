@@ -12,8 +12,8 @@ function Profile() {
               <div class="content">
                 <h1>Visual UX Designer & Frontend Developer</h1>
                 <div class="contact-links">
-                  <strong><a class="contact-link" href="tel:00447481844007">0044 7481 844 007</a></strong>
-                  <strong><a class="contact-link" href="mailto:fi@fidunnington.com">fi@fidunnington.com</a></strong>
+                  <a class="contact-link" href="tel:00447481844007">0044 7481 844 007</a>
+                  <a class="contact-link" href="mailto:fi@fidunnington.com">fi@fidunnington.com</a>
                 </div>
 
                 <div>
