@@ -12,7 +12,7 @@
   --color-primary: #20c997;
   --color-secondary: #161718;
   --dusky-grey: #45505b;
-  --background: black;
+  --background: #161718;
   --background-opposite: white;
 } */
 
@@ -23,7 +23,7 @@
   --color-secondary: #fafafa;
   --dusky-grey: #45505b;  
   --background: white;
-  --background-opposite: black;
+  --background-opposite: #161718;
 
 }
 

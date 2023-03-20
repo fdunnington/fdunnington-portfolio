@@ -1,7 +1,7 @@
 
 .form-control {
     margin: 10px auto;
-    padding: 5px;
+    padding: 10px;
     width: 95%;
     min-width: 300px;
 }
@@ -12,9 +12,21 @@ input {
 
 textarea {
     height: 60px;
-    background-color: aliceblue;
 }
 
-#submit-button {
+.submit-button {
     padding: 10px;
+    width: 100%;
+    border: 2px solid var(--background);
+    border-radius: 2px;
+    background-color: transparent;
+    color: var(--background);
+    font-weight: bold;
+}
+
+.submit-button:hover {
+    padding: 10px;
+    border: 2px solid var(--color-primary);    
+    color: var(--color-primary);
+    transition: all 0.3s ease-in-out;
 }

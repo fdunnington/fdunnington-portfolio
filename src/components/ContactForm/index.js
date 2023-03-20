@@ -1,23 +1,30 @@
-import React from 'react'
+import React, {useState} from 'react'
 import "./style.css";
 
 const ContactForm = () => {
-  const [formStatus, setFormStatus] = React.useState('Send')
-  const onSubmit = (e) => {
-    e.preventDefault()
-    setFormStatus('Submitting...')
-    const { name, email, message } = e.target.elements
-    let conFom = {
-      name: name.value,
-      email: email.value,
-      message: message.value,
-    }
-    console.log(conFom)
+  const [formStatus, setFormStatus] = useState('Sent')
+
+  const firstNameRef = useState(null)
+  const lastNameRef =  useState(null)
+  const emailRef = useState(null)
+  const messageRef =  useState(null)
+  
+  const handleSubmit = (event) => {
+    event.preventDefault()
+
+    const data = {
+          firstName: firstNameRef.current.value,
+          lastName: lastNameRef.current.value,
+          email: emailRef.current.value,
+          message: messageRef.current.value
+          }
+    console.log(data);
+
   }
   return (
     <div className="contact-me">
       <h2>Get In Touch!</h2>
-      <form onSubmit={onSubmit}>
+      <form onSubmit={formStatus}>
         <div>
           <input className="form-control" type="text" id="name" placeholder ="Your name" required />
         </div>
@@ -28,7 +35,7 @@ const ContactForm = () => {
           <textarea className="form-control" id="message" placeholder ="Your message" required />
         </div>
         <button className="submit-button" type="submit">
-          {formStatus}
+          Send
         </button>
       </form>
     </div>
